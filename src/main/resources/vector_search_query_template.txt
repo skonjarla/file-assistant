@@ -1,0 +1,3 @@
+Perform a vector database search to product similarity search with following query:
+
+{query}

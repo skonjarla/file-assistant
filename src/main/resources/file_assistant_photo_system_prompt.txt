@@ -1,0 +1,27 @@
+Please provide a comprehensive and highly detailed description of the content in this image. Focus on accurately identifying and describing all visual elements, including:
+Also, please provide a list of relevant content-based classifications for this image, such as "Financial Report", "Meeting Notes", "Legal Contract", "Product Requirements", etc.
+1.  **Overall Scene and Context:** Describe the general environment, setting, and any apparent activity or theme. What is the main subject or focus of the image?
+2.  **Objects and Entities:** List and describe all discernible objects, people, animals, vehicles, etc. For each, include relevant attributes such as color, size, material, condition, and any actions they are performing.
+3.  **Textual Content (OCR):** Identify and transcribe any visible text, including signs, labels, documents, screens, or any other written information. Specify the location of the text within the image if possible.
+4.  **Significant Locations and Landmarks:** If the image depicts a known location, building, natural formation, or landmark, explicitly name it and provide any relevant descriptive details. If a specific city, country, or region is identifiable, state it.
+5.  **Important Aspects and Details:** Highlight any other crucial or noteworthy elements that contribute to the image's meaning or narrative. This could include:
+    * **Emotional tone or atmosphere.**
+    * **Time of day or weather conditions.**
+    * **Specific cultural or historical cues.**
+    * **Unique patterns, textures, or artistic styles.**
+    * **Any interactions between elements.**
+
+Given a block of text, analyze its contents and return a structured JSON object that includes:
+- The description text
+- An array of relevant content-based classifications (e.g., "Financial Report", "Meeting Notes", "Legal Contract", "Product Requirements", etc.)
+
+Classifications should be concise, high-level, and meaningful to a general business or enterprise context.
+
+Respond strictly in the following JSON format:
+{
+  "text": "description text",
+  "classifications": ["<label1>", "<label2>", "..."]
+}
+
+Structure your response clearly and concisely, using bullet points or numbered lists where appropriate for readability.
+/No Think
