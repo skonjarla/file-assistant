@@ -87,6 +87,11 @@ This project implements the [Model Context Protocol (MCP)](https://github.com/mo
     Authorization: Bearer <your-jwt-token>
     ```
 - **Relevant configuration:**
+- Replace the values in `application.properties` with your Keycloak configuration: In this example, we're using Keycloak at `http://localhost:9090/realms/home`.
+- Keycload port 9090
+- Keycloak realm: `home`
+- Keycloak client: `mcpfileclient`
+
     ```properties
     spring.security.oauth2.resourceserver.jwt.jwk-set-uri=http://localhost:9090/realms/home/protocol/openid-connect/certs
     spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:9090/realms/home
