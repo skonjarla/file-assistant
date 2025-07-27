@@ -88,7 +88,7 @@ This project implements the [Model Context Protocol (MCP)](https://github.com/mo
     ```
 - **Relevant configuration:**
 - Replace the values in `application.properties` with your Keycloak configuration: In this example, we're using Keycloak at `http://localhost:9090/realms/home`.
-- Keycload port 9090
+- Keycloak port 9090
 - Keycloak realm: `home`
 - Keycloak client: `mcpfileclient`
 
@@ -166,6 +166,12 @@ All configuration is in `src/main/resources/application.properties`.
 - **Elasticsearch**: `spring.elasticsearch.*`
 - **MCP**: `spring.ai.mcp.server.*` (see above for example)
 
+Keycloak configuration:
+- Essentially, keycloak is used for authentication and authorization
+- Following accounts are created for MCP Server and Client in keycloak
+  - For JWT token validation and for client app - mcpfileclient
+  - To obtain MCP Server details at the time of MCP Client startup - mcpclient
+  - Users with roles to login at MCP Client to access MCP Server
 ---
 
 ## 🛠️ API Endpoints
