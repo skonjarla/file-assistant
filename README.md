@@ -200,14 +200,6 @@ Keycloak configuration:
 
 ---
 
-## 🤝 Contributing
-1. Fork the repo
-2. Create a feature branch
-3. Commit and push your changes
-4. Open a Pull Request
-
----
-
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE) for details.
@@ -223,3 +215,8 @@ MIT License. See [LICENSE](LICENSE) for details.
 - [Keycloak](https://www.keycloak.org/)
 - [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol/spec)
 - And all open-source contributors! 
+
+## Disclaimer
+
+This project is for educational and research purposes only. It is not intended for production use.
+Please use at your own risk and ensure proper security measures are in place.
